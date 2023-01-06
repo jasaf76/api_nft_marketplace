@@ -1,0 +1,38 @@
+{
+  "name": "general-api",
+  "version": "1.0.0",
+  "description": "this is a general api, then  converted to nft marketplace api",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasaf76/Api-starter-file-main.git"
+  },
+  "author": "Jose antonio aparicio gallego",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasaf76/Api-starter-file-main/issues"
+  },
+  "homepage": "https://github.com/jasaf76/Api-starter-file-main#readme",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^9.0.0",
+    "@types/nodemailer": "^6.4.7",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "file-upload": "^0.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.10.0",
+    "ndb": "^1.1.5",
+    "nodemailer": "^6.8.0",
+    "slugify": "^1.6.5",
+    "validator": "^13.7.0"
+  }
+}
